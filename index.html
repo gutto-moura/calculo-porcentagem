@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@200;300;400&display=swap" rel="stylesheet">
+    <title>Document</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="index.js" defer></script>
+</head>
+<body>
+	<div class="accordions">
+		<div class="accordion-item">
+			<input type="radio" name="accordion" checked="checked" id="accordion-1" />
+			<label for="accordion-1">Porcentagem 1</label>
+			
+			<div class="accordion-content">
+				<h2>Exemplo: 300 é 60% de 500</h2>
+				<div class="calculo-juros">
+				<input 
+					type="text"
+					id="valor"
+				/>
+				<strong>É</strong>
+				<input 
+					type="text"
+					id="porcentagem"
+				/>
+				<strong class="simbolo-porcentagem">%</strong>
+				<button onclick="calculoJuros()">Resultado</button>
+				</div>
+				<div id="mostrarResultado"></div>
+			</div>
+		</div>
+		<div class="accordion-item">
+			<input type="radio" name="accordion" checked="checked" id="accordion-2" />
+			<label for="accordion-2">Porcentagem 2</label>
+			
+			<div class="accordion-content">
+			
+				<h2>Exemplo: 300 é 60% de 500</h2>
+				<div class="calculo-juros">
+				<input 
+					type="number"
+					id="valor"
+				/>
+				<input 
+					type="number"
+					id="porcentagem"
+				/>
+				<strong class="simbolo-porcentagem">%</strong>
+				<button onclick="calculoJuros()">Resultado</button>
+				</div>
+				<div id="mostrarResultado"></div>
+			</div>
+		</div>
+		<div class="accordion-item">
+			<input type="radio" name="accordion" checked="checked" id="accordion-3" />
+			<label for="accordion-3">Porcentagem 3</label>
+			<div class="accordion-content">
+				<div class="calculo-juros">
+					<h2>Exemplo: 300 é 60% de 500</h2>
+					<input 
+						type="text"
+						id="valor"
+					/>
+					<input 
+						type="text"
+						id="porcentagem"
+					/>
+					<strong class="simbolo-porcentagem">%</strong>
+					<button onclick="calculoJuros()">Resultado</button>
+				</div>
+				<div id="mostrarResultado"></div>
+			</div>
+		</div>
+		<div class="accordion-item">
+			<input type="radio" name="accordion" checked="checked" id="accordion-4" />
+			<label for="accordion-4">Porcentagem 4</label>	
+			
+			<div class="accordion-content">
+				<h2>Exemplo: 300 é 60% de 500</h2>
+				<div class = "calculo-juros">
+					<input 
+						type="text"
+						id="valor"
+
+					/>
+					<strong>DE</strong>
+					<input 
+						type="text"
+						id="porcentagem"
+					/>
+					<strong class="simbolo-porcentagem">%</strong>
+					<button onclick="calculoJuros()" >Resultado</button>
+				</div>
+				<div id="mostrarResultado"></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,57 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Albert Sans', sans-serif;
+}
+
+.accordions{
+	width: 600px;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+}
+.accordion-item input[type=radio]{
+	display: none;
+}
+.accordion-item label{
+	display: block;
+	border: 1px solid #ccc;
+	background: #e5e5e5;
+	cursor: pointer;
+	padding: 5px 3px;
+}
+.accordion-content{
+	height: 0px;
+	overflow: hidden;
+	transition: height 0.3s ease-in-out;
+	text-align: center;
+	
+
+}
+h2{
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.accordion-content input{
+	width: 70px;
+	border: none;
+	border-bottom: 2px solid #000;
+	outline: none;
+	text-align: center;
+	font-size: 20px;
+	
+}
+.calculo-juros{
+	margin-bottom: 20px;
+}
+
+[id^=accordion]:checked ~ .accordion-content{
+	height: 150px;
+}
+.simbolo-porcentagem{
+	margin-left: -23px;
+	font-size: 20px;
+	margin-right: 30px;
+	background-color: !transparent;
+}
