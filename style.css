@@ -15,10 +15,11 @@
 }
 .accordion-item label{
 	display: block;
-	border: 1px solid #ccc;
-	background: #e5e5e5;
+	border: 1px solid 	#DDA0DD;
+	background: 	#DDA0DD;
 	cursor: pointer;
-	padding: 5px 3px;
+	padding: 7px 4px;
+	font-weight: bold;
 }
 .accordion-content{
 	height: 0px;
@@ -36,11 +37,22 @@ h2{
 .accordion-content input{
 	width: 70px;
 	border: none;
-	border-bottom: 2px solid #000;
+	border-bottom: 2px solid #800080;
 	outline: none;
 	text-align: center;
+	background-color: transparent;
 	font-size: 20px;
+	font-weight: bold;
+
 	
+}
+.reais{
+	margin-right: -15px;
+	background-color: transparent;
+	color: #800080;
+	font-size: 17px;
+	
+
 }
 .calculo-juros{
 	margin-bottom: 20px;
@@ -51,7 +63,18 @@ h2{
 }
 .simbolo-porcentagem{
 	margin-left: -23px;
-	font-size: 20px;
+	font-size: 17px;
 	margin-right: 30px;
-	background-color: !transparent;
+	background-color: transparent;
+	color:#800080;
+}
+.divisor{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.fa-solid{
+	color: blue;
+}
+.mostrar-resultado{
+	font-size: 25px;
 }

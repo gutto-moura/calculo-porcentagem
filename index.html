@@ -3,37 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@200;300;400&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css" >
     <title>Document</title>
-	<link rel="stylesheet" type="text/css" href="style.css" />
+		<link rel="stylesheet" type="text/css" href="style.css" />
     <script src="index.js" defer></script>
 </head>
 <body>
 	<div class="accordions">
 		<div class="accordion-item">
 			<input type="radio" name="accordion" checked="checked" id="accordion-1" />
-			<label for="accordion-1">Porcentagem 1</label>
+			<label for="accordion-1">Simulador de Porcentagem: Cálculo 1</label>
 			
 			<div class="accordion-content">
-				<h2>Exemplo: 300 é 60% de 500</h2>
+				<h2><i class="fa-solid fa-circle-info" color="blue"></i> Exemplo: 300 é 60% de 500</h2>
 				<div class="calculo-juros">
-				<input 
-					type="text"
-					id="valor"
-				/>
-				<strong>É</strong>
-				<input 
-					type="text"
-					id="porcentagem"
-				/>
-				<strong class="simbolo-porcentagem">%</strong>
-				<button onclick="calculoJuros()">Resultado</button>
+					<strong class ="reais">R$</strong>
+					<input 
+						type="text"
+						id="valor"
+					/>
+					<strong class = "divisor">É</strong>
+					<input 
+						type="text"
+						id="porcentagem"
+					>
+					<strong class="simbolo-porcentagem">%</strong>
+					<button onclick="calculoJuros()">Resultado</button>
 				</div>
-				<div id="mostrarResultado"></div>
+				<div class="mostrar-resultado" id="mostrarResultado"></div>
 			</div>
 		</div>
+		<!--
 		<div class="accordion-item">
 			<input type="radio" name="accordion" checked="checked" id="accordion-2" />
 			<label for="accordion-2">Porcentagem 2</label>
@@ -99,6 +102,7 @@
 				<div id="mostrarResultado"></div>
 			</div>
 		</div>
+	-->
 	</div>
 </body>
 </html>

@@ -32,7 +32,7 @@ function calculoJuros(){
 	switch(opcaoSelecionada){
 		case 1:
 			let resultadoPorcentagemCase1 = 100 * (valorDecimal / valorPercentual);
-			mostrarResultado = document.getElementById('mostrarResultado').innerHTML = resultadoPorcentagemCase1;
+			mostrarResultado = document.getElementById("mostrarResultado").innerHTML = `${resultadoPorcentagemCase1}`;
 			console.log(resultadoPorcentagemCase1);
 			break
 		case 2:
@@ -47,7 +47,7 @@ function calculoJuros(){
 			resultado = 100 * (valorDecimal / valorPercentual);
 			let valorPorcentagemAdicional = Number(prompt("Digite o valor da porcentagem"));
 			let resultadoPorcentagemCase4 = resultado + ( valorPorcentagemAdicional / 100 * resultado);
-			cmostrarResultado = document.getElementById('mostrarResultado').innerHTML = resultadoPorcentagemCase4;
+			cmostrarResultado = document.getElementById('.mostrarResultado').innerHTML = resultadoPorcentagemCase4;
 			break; 
 		default:
 		console.log('Digite um numero entre [1 - 4] ');
