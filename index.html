@@ -17,7 +17,7 @@
 			<label for="accordion-1">Simulador de Porcentagem: Cálculo 1</label>
 			
 			<div class="accordion-content">
-				<h2><strong>👉</strong>Exemplo: 300 é 60% de 500</h2>
+				<h2>👉Exemplo: 300 é 60% de 500</h2>
 				<div class="calculo-juros">
 					<strong class ="reais">R$</strong>
 					<input 
@@ -35,24 +35,25 @@
 				<div class="mostrar-resultado" id="mostrarResultado"></div>
 			</div>
 		</div>
-		<!--
 		<div class="accordion-item">
 			<input type="radio" name="accordion" checked="checked" id="accordion-2" />
-			<label for="accordion-2">Porcentagem 2</label>
+			<label for="accordion-2">Simulador de Porcentagem: Cálculo 2</label>
 			
 			<div class="accordion-content">
 			
-				<h2>Exemplo: 300 é 60% de 500</h2>
+				<h2>Exemplo: 60% de 500 é: 300</h2>
 				<div class="calculo-juros">
-				<input 
-					type="number"
-					id="valor"
-				/>
-				<input 
-					type="number"
-					id="porcentagem"
-				/>
-				<strong class="simbolo-porcentagem">%</strong>
+					<input 
+						type="text"
+						id="porcentagem"
+					/>
+					<strong class="simbolo-porcentagem">%</strong>
+					<strong class = "divisor">DE</strong>
+					<input 
+						type="text"
+						id="valor"
+					/>
+
 				<button onclick="calculoJuros()">Resultado</button>
 				</div>
 				<div id="mostrarResultado"></div>
@@ -60,14 +61,15 @@
 		</div>
 		<div class="accordion-item">
 			<input type="radio" name="accordion" checked="checked" id="accordion-3" />
-			<label for="accordion-3">Porcentagem 3</label>
+			<label for="accordion-3">Simulador de Porcentagem: Cálculo 3</label>
 			<div class="accordion-content">
 				<div class="calculo-juros">
-					<h2>Exemplo: 300 é 60% de 500</h2>
+					<h2>Exemplo: 500 + 15% é: 575</h2>
 					<input 
 						type="text"
 						id="valor"
 					/>
+					<strong class="divisor">+</strong>
 					<input 
 						type="text"
 						id="porcentagem"
@@ -80,17 +82,22 @@
 		</div>
 		<div class="accordion-item">
 			<input type="radio" name="accordion" checked="checked" id="accordion-4" />
-			<label for="accordion-4">Porcentagem 4</label>	
+			<label for="accordion-4">Simulador de Porcentagem: Cálculo 4</label>	
 			
 			<div class="accordion-content">
-				<h2>Exemplo: 300 é 60% de 500</h2>
+				<h2>Exemplo: 300 é 60% de 500 + 15% é: 575</h2>
 				<div class = "calculo-juros">
 					<input 
 						type="text"
 						id="valor"
 
 					/>
-					<strong>DE</strong>
+					<strong class="divisor">DE</strong>
+					<input 
+						type="text"
+						id="porcentagem"
+					/>
+					<strong class="divisor">+</strong>
 					<input 
 						type="text"
 						id="porcentagem"
@@ -101,7 +108,6 @@
 				<div id="mostrarResultado"></div>
 			</div>
 		</div>
-	-->
 	</div>
 </body>
 </html>
