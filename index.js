@@ -11,6 +11,8 @@ function sequenciaLogica(){
 	
 }
 
+
+
 function calculoJuros(){
 	console.log("========================================");
 	console.log("|      CALCULADORA DE PORCENTAGEM      |");
@@ -24,21 +26,12 @@ function calculoJuros(){
 	console.log("DIGITE A OPÇÃO: ");
 	
 	let opcaoSelecionada = Number(prompt('Escolha entre [1 - 4]:'));
-	let valorDecimal = Number(document.getElementById('valor').value);
-	let valorPercentual = Number(document.getElementById('porcentagem').value);
+	let valorDecimal = Number(document.getElementById('valor-C2').value);
+	let valorPercentual = Number(document.getElementById('porcentagem-C2').value);
 	let valorPorcentagemAdicional;
 	let mostrarResultado;  
 	
 	switch(opcaoSelecionada){
-		case 1:
-			let resultadoPorcentagemCase1 = 100 * (valorDecimal / valorPercentual);
-			mostrarResultado = document.getElementById("mostrarResultado").innerHTML = `${resultadoPorcentagemCase1}`;
-			console.log(resultadoPorcentagemCase1);
-			break
-		case 2:
-			let resultadoPorcentagemCase2 = valorPercentual / 100 * valorDecimal;
-			mostrarResultado = document.getElementById('mostrarResultado').innerHTML =  `${resultadoPorcentagemCase2}`;
-			break
 		case 3:
 			resultadoPorcentagemCase3 = valorDecimal + (valorPercentual / 100 * valorDecimal);
 			mostrarResultado = document.getElementById('mostrarResultado').innerHTML = resultadoPorcentagemCase3;
@@ -53,4 +46,20 @@ function calculoJuros(){
 		console.log('Digite um numero entre [1 - 4] ');
 			
 	}
+}
+
+
+const simuladorPorcentagemCalculo1 = () => {
+	let inputValorDecimal = Number(document.querySelector('#valor-C1').value);
+	let inputvalorPercentual = Number(document.querySelector('#porcentagem-C1').value);
+
+	let resultadoPorcentagemCase1 = 100 * (inputValorDecimal / inputvalorPercentual);
+	mostrarResultado = document.getElementById("mostrarResultado").innerHTML = `${resultadoPorcentagemCase1}`;
+}
+const simuladorPorcentagemCalculo2 = () => {
+	let inputValorDecimal = Number(document.querySelector('#valor-C2').value);
+	let inputvalorPercentual = Number(document.querySelector('#porcentagem-C2').value);
+
+	let resultadoPorcentagemCase2 = inputvalorPercentual / 100 * inputValorDecimal;
+		mostrarResultado = document.getElementById('mostrarResultado-C2').innerHTML =  `${resultadoPorcentagemCase2}`;
 }
