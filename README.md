@@ -1,1 +1,14 @@
-# calculo-porcentagem
+<h1 align="center"> Cadastrei </h1>
+Projeto pessoal para calcular a porcentagem. Nele é possível fazer quatro calculos diferentes, de uma forma simples e com um exemplo de como preencher os campos para não haver erro no calculo.
+
+# :hammer: Funcionalidades do projeto
+
+- `Calculo 1`: 300 é 60% de 500
+- `Funcionalidade 2`: 60% de 500 é: 300
+- `Funcionalidade 2a`:  500 + 15% é: 575
+- `Funcionalidade 3`: 300 é 60% de 500 + 15% é: 575
+
+## ✔️ Técnicas e tecnologias utilizadas
+- ``HTML5``
+- ``CSS3``
+- ``JavaScript``
