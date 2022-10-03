@@ -21,10 +21,10 @@ Projeto pessoal para calcular a porcentagem. Nele é possível fazer quatro calc
 # 🛠️ Abrir e rodar o projeto
 **Clonando o repositório**
 ```
-$ git clone https://github.com/gutto-moura/calculo-porcentagem.git
-$ cd cadastro-simples
+git clone https://github.com/gutto-moura/calculo-porcentagem.git
+cd cadastro-simples
 ```
 **Executar o projeto**
 ```
-$ Arrastar o arquivo "index.html" para o navegador de preferencia.
+Arrastar o arquivo "index.html" para o navegador de preferencia.
 ```
