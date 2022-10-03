@@ -12,3 +12,14 @@ Projeto pessoal para calcular a porcentagem. Nele é possível fazer quatro calc
 - ``HTML5``
 - ``CSS3``
 - ``JavaScript``
+
+## 🔗 Link do projeto:
+[Acesse Simulador de Porcentagem](https://gutto-moura.github.io/calculo-porcentagem/)
+
+# 🛠️ Abrir e rodar o projeto
+
+**Clonando o repositório**
+```
+$ git clone https://github.com/gutto-moura/calculo-porcentagem.git
+$ cd cadastro-simples
+```
