@@ -26,5 +26,5 @@ $ cd cadastro-simples
 ```
 **Executar o projeto**
 ```
-$ Arrastar o arquivo **index.html** para o navegador de preferencia.
+$ Arrastar o arquivo "index.html" para o navegador de preferencia.
 ```
